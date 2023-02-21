@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0c60caf-3cb7-4208-a824-00c858ed9d38" name="Changes" comment="Added the bean config class">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/domain/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/domain/Department.java" afterDir="false" />
+    <list default="true" id="e0c60caf-3cb7-4208-a824-00c858ed9d38" name="Changes" comment="populated the Employee class with attributes, constructors, getter ,setter, hashcode, equals and tostring.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/config/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/config/BeanConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/domain/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/domain/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +42,26 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.niit.App" />
+      <module name="BEJ_C1_S3_Spring_IOC_MC_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.niit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,7 +99,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676985334774</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="populated the Department class with attributes, constructors, getter ,setter, hashcode, equals and tostring.">
+      <created>1676985546406</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676985546406</updated>
+    </task>
+    <task id="LOCAL-00006" summary="populated the Employee class with attributes, constructors, getter ,setter, hashcode, equals and tostring.">
+      <created>1676985710411</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676985710411</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,6 +132,8 @@
     <MESSAGE value="Added spring context dependency in pom.xml" />
     <MESSAGE value="Added the domain classes - employee and department" />
     <MESSAGE value="Added the bean config class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the bean config class" />
+    <MESSAGE value="populated the Department class with attributes, constructors, getter ,setter, hashcode, equals and tostring." />
+    <MESSAGE value="populated the Employee class with attributes, constructors, getter ,setter, hashcode, equals and tostring." />
+    <option name="LAST_COMMIT_MESSAGE" value="populated the Employee class with attributes, constructors, getter ,setter, hashcode, equals and tostring." />
   </component>
 </project>

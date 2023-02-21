@@ -9,12 +9,13 @@ public class Employee {
     private int empId;
     private String empName;
     private String empAddress;
-//    @Autowired
+    //    @Autowired
     private Department department;
 
     public Employee() {
     }
 
+    @Autowired
     public Employee(int empId, String empName, String empAddress, Department department) {
         this.empId = empId;
         this.empName = empName;
@@ -70,11 +71,6 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Employee{" +
-                "empId=" + empId +
-                ", empName='" + empName + '\'' +
-                ", empAddress='" + empAddress + '\'' +
-                ", department=" + department +
-                '}';
+        return "Employee{" + "empId=" + empId + ", empName='" + empName + '\'' + ", empAddress='" + empAddress + '\'' + ", department=" + department + '}';
     }
 }
